@@ -30,7 +30,7 @@ export default function Form() {
         />
         <TextField label="Aisle No." variant="outlined" fullWidth />
         <Button variant="contained" component="label">
-          Upload QR Code Image
+          Upload BAR Code Image
           <input hidden accept="image/*" multiple type="file" />
         </Button>
       </Box>
