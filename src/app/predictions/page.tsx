@@ -29,7 +29,7 @@ ChartJS.register(
 );
 
 // Explicitly typing ChartData to allow 'bar' and 'line' datasets
-const data: ChartData<"bar" | "line"> = {
+const data: ChartData<"line"> = {
   labels: ["January", "February", "March", "April", "May"],
   datasets: [
     {
@@ -49,7 +49,7 @@ const data: ChartData<"bar" | "line"> = {
   ],
 };
 
-const options: ChartOptions<"bar" | "line"> = {
+const options: ChartOptions<"line"> = {
   scales: {
     y: {
       beginAtZero: true,
