@@ -1,0 +1,5 @@
+{
+  "name": "name of medicine",
+  "forecast": [1, 2, 3, 4, 5],
+  "data": [2, 4, 5, 6, 7]
+}
